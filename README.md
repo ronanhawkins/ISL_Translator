@@ -36,10 +36,17 @@ Makes and displays live predictions using ISL_model.pkl
 
 # python libraries used (download these using pip3)
 cv2 : video proccessing
+
 mediapipe : analyses images for hand landmarks
+
 pandas : data manipulation
+
 numpy : data manipulations
+
 sklearn : creates AI model
+
 seaborn : creates heatmap
+
 matplotlib : plots data
+
 joblib : creates and loads .pkl files
