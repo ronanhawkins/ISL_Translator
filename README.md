@@ -31,5 +31,6 @@ Creates a heatmap to show accuracy (heatmap.png)
 
 # transl.py
 Actively used program to add hand landmarks to video
+
 Makes and displays live predictions using ISL_model.pkl
 
