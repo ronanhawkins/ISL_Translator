@@ -41,16 +41,19 @@ joblib.dump(model, filename)
 
 #Viusualising
 conm = confusion_matrix(y_test, y_pred)
+#Accuracy Scores
 f1 = f1_score(y_test, y_pred, average='micro')
 recall = recall_score(y_test, y_pred, averaage='micro')
 precision = precision_score(y_test, y_pred, average='micro')
 f1, recall, precision
 
+#Visualises a plot of accuracy
 labels = sorted(list(set(data['Output'])))
 labels = [x.upper() for x in labels]
 fig, ax = plt.subplots(figsize=(12, 12))
 ax.set_title('Irish Sign Language Confusion Matrix')
 
+#creates heatmap of accuracy
 maping = seaborn.heatmap(conm, annot=True, cmap="rocket", linewidths=0.5, xticklabels=labels, yticklabels=labels, vmax=8, ax=ax )
 maping
-maping.figure.savefig("output.png")
+maping.figure.savefig("heatmap.png")
