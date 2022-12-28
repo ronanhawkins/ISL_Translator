@@ -35,7 +35,7 @@ Actively used program to add hand landmarks to video
 Makes and displays live predictions using ISL_model.pkl
 
 # python libraries used (download these using pip3)
-cv2 : video proccessing
+opencv-python : video proccessing
 
 mediapipe : analyses images for hand landmarks
 
