@@ -83,7 +83,7 @@ with mp_hands.Hands(
           image = cv2.putText(image, str(y_pred[0]), (50,150), cv2.FONT_HERSHEY_TRIPLEX, 3, (0,128,0), 3, cv2.LINE_AA)
 
     #shows image
-    cv2.imshow('MediaPipe Hands', cv2.flip(image, 1))
+    cv2.imshow('MediaPipe Hands', cv2.flip(image , 1))
 
     # if escape key exits breaks loop
     if cv2.waitKey(5) & 0xFF == 27:
