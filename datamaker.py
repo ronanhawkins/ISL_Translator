@@ -69,20 +69,21 @@ def make_csv():
     
     #for each folder
     for each_folder in os.listdir(mypath):
-        if '._' in each_folder:
+        if each_folder.startswith('.'):
             pass
 
         else:
             #creates line of landmark data for each picture file in each folder
             for each_number in os.listdir(mypath + '/' + each_folder):
-                if '._' in each_number:
+                if each_number.startswith('.'):
                     pass
                 
                 else:
+                    print(each_folder)
                     label = each_folder
 
                     file_loc = mypath + '/' + each_folder + '/' + each_number
-
+                    print(each_number)
                     data = image_processed(file_loc)
                     
                     try:
