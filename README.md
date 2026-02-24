@@ -1,5 +1,6 @@
 # ISL_Translator
 A translator for Irish Sign Language
+
 Files needed are:
 
 isl_dataset (folder) --> A, B, C, D, etc. (folders) --> picture.jpeg, etc.
