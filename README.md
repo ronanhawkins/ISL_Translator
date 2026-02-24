@@ -1,6 +1,8 @@
 # ISL_Translator
 A translator for Irish Sign Language
 
+I created this project for the BTYSE in 2023. We won a "highly commended" award.
+
 Files needed are:
 
 isl_dataset (folder) --> A, B, C, D, etc. (folders) --> picture.jpeg, etc.
