@@ -4,17 +4,11 @@ A translator for Irish Sign Language
 I created this project for the BTYSE in 2023. We won a "highly commended" award.
 
 Files needed are:
-
 isl_dataset (folder) --> A, B, C, D, etc. (folders) --> picture.jpeg, etc.
-
 datamaker.py (writes data to ISL_dataset.py by analysing isl_dataset)
-
 ISL_dataset.py (created by datamaker.py, stores hand landmark data)
-
 sense.py (creates model using ISL_dataset.py, saves model as ISL_model.pkl)
-
 isl_model.pkl
-
 transl.py (live program : displays video, makes prediction using ISL_model.pkl)
 
 
